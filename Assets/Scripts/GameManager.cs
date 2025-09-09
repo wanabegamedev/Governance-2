@@ -38,7 +38,9 @@ public class GameManager : MonoBehaviour
     public List<CardData> cardsInDeck;
     
     public List<CardData> cardDiscardDeck;
-    
+
+
+    public bool endLoaded = false;
     
   
     
@@ -69,7 +71,11 @@ public class GameManager : MonoBehaviour
    {
        if (healthValue <= 0 || militaryValue <= 0 || popularityValue <= 0 || economyValue <= 0 || politicalPower <= 0)
        {
-           EndGame();
+           if (!endLoaded)
+           {
+               EndGame();
+           }
+      
        }
    }
 
@@ -115,6 +121,15 @@ public class GameManager : MonoBehaviour
        print("Game Over");
 
        SceneManager.LoadScene(2);
+       endLoaded = true;
+
+       healthValue = 100;
+       politicalPower = 100;
+       economyValue = 100;
+       militaryValue = 100;
+       popularityValue = 100;
+
+       endLoaded = false;
    }
    
    public static void Shuffle<T>( IList<T> ts) {
