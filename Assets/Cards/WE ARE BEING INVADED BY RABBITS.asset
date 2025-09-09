@@ -17,8 +17,8 @@ MonoBehaviour:
     ATTACKS AGAINST ME, THIS MUST BE SOME SCHEME BY A ENEMY NATION..... HELP!
   cardImage: {fileID: -3205207103631594680, guid: 61dbbabca0c0c084287c0742ec808d7c, type: 3}
   OnAcceptEvents:
-  - {fileID: 11400000, guid: 5eb7b2f3cad69a84d8ca354b1f1dc579, type: 2}
-  - {fileID: 11400000, guid: 47cb2dc4113df72468df8cbdad5fd706, type: 2}
+  - {fileID: 11400000, guid: b084a22270031004681e4bcb89f88d83, type: 2}
+  - {fileID: 11400000, guid: d1fd91e2cd498f846bf6e2b34b75ead8, type: 2}
   OnRejectEvents:
-  - {fileID: 11400000, guid: 8644f73ab96718e408b61d79db37398a, type: 2}
+  - {fileID: 11400000, guid: 5b4abef8d8631954d8a500e33b1a1d3e, type: 2}
   oneTime: 0

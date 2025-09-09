@@ -7,6 +7,11 @@ public class CardTriggerArea : MonoBehaviour
     [SerializeField] private bool acceptArea = true;
     [SerializeField] private bool rejectArea = false;
 
+    [SerializeField] private AudioClip onActivateClip;
+    
+    
+    
+
 
     private void OnTriggerStay2D(Collider2D other)
     {
@@ -25,6 +30,9 @@ public class CardTriggerArea : MonoBehaviour
         if (cardRef != GameManager.instance.currentSelectedCard)
         {
            ActivateCard(cardRef);
+           GetComponent<AudioSource>().clip = onActivateClip;
+           GetComponent<AudioSource>().Play();
+           
         }
 
     }
@@ -71,6 +79,8 @@ public class CardTriggerArea : MonoBehaviour
             {
                 cardEvent.OnEventActivate();
             }
+
+            GameManager.instance.politicalPower += 5;
         }
         else
         {
@@ -78,6 +88,8 @@ public class CardTriggerArea : MonoBehaviour
             {
                 cardEvent.OnEventActivate();
             }
+
+            GameManager.instance.politicalPower -= 10;
         }
         
         //Remove card data

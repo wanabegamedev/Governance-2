@@ -24,9 +24,11 @@ public class GameManager : MonoBehaviour
     public int economyValue = 100;
     
     public int militaryValue = 100;
-    
+
     public int popularityValue = 100;
 
+    public int politicalPower = 100;
+    
     [SerializeField] GameObject cardPrefab;
     
     [SerializeField] Vector3 cardStartPosition;
@@ -37,6 +39,8 @@ public class GameManager : MonoBehaviour
     
     public List<CardData> cardDiscardDeck;
     
+    
+  
     
     
     
@@ -63,7 +67,7 @@ public class GameManager : MonoBehaviour
 
    private void Update()
    {
-       if (healthValue == 0 || militaryValue == 0 || popularityValue == 0 || economyValue == 0)
+       if (healthValue <= 0 || militaryValue <= 0 || popularityValue <= 0 || economyValue <= 0 || politicalPower <= 0)
        {
            EndGame();
        }

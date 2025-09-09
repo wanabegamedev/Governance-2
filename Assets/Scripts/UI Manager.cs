@@ -7,6 +7,7 @@ public class UIManager : MonoBehaviour
     public TextMeshProUGUI economyValueText;
     public TextMeshProUGUI militaryValueText;
     public TextMeshProUGUI popularityValueText;
+    public TextMeshProUGUI politicalPowerValueText;
     
 
 
@@ -17,5 +18,6 @@ public class UIManager : MonoBehaviour
         economyValueText.text = "Economy: " + GameManager.instance.economyValue.ToString();
         militaryValueText.text = "Military: " + GameManager.instance.militaryValue.ToString();
         popularityValueText.text = "Happiness: " + GameManager.instance.popularityValue.ToString();
+        politicalPowerValueText.text = "Political Power: " + GameManager.instance.politicalPower.ToString();
     }
 }

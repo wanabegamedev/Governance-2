@@ -17,6 +17,7 @@ MonoBehaviour:
     and remember I voted for you! Would you mind giving me some???? Please!!!
   cardImage: {fileID: 3523829109956258542, guid: 3bfc3251f04bd6a45898d81183da86f3, type: 3}
   OnAcceptEvents:
-  - {fileID: 11400000, guid: 97efdf77d72d97a44b6c160e725420e8, type: 2}
+  - {fileID: 11400000, guid: d1fd91e2cd498f846bf6e2b34b75ead8, type: 2}
   OnRejectEvents:
-  - {fileID: 11400000, guid: 97efdf77d72d97a44b6c160e725420e8, type: 2}
+  - {fileID: 11400000, guid: 08b06f597e665c941be2c2ef400e3cd2, type: 2}
+  oneTime: 0

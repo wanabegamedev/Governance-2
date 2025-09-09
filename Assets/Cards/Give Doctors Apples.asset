@@ -18,8 +18,8 @@ MonoBehaviour:
     What should we do?
   cardImage: {fileID: -3404147920085797757, guid: 3b360fee3773f8545bd343722941404b, type: 3}
   OnAcceptEvents:
-  - {fileID: 11400000, guid: 2997c3c89ca6abc4680f8c82c009311b, type: 2}
-  - {fileID: 11400000, guid: 4d2ea380f81a58d4197fd19fe1f51fc8, type: 2}
+  - {fileID: 11400000, guid: 54850d4e93910244988133ab5f9cd5bf, type: 2}
+  - {fileID: 11400000, guid: 08b06f597e665c941be2c2ef400e3cd2, type: 2}
   OnRejectEvents:
-  - {fileID: 11400000, guid: 8644f73ab96718e408b61d79db37398a, type: 2}
+  - {fileID: 11400000, guid: 50431eac396844745876f2f8b31a6665, type: 2}
   oneTime: 0

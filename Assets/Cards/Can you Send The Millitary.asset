@@ -17,8 +17,8 @@ MonoBehaviour:
     sending them to his birthday party and make them kidnap him?? He would love that! '
   cardImage: {fileID: 6644106072015197656, guid: 67bc952b0b642f84f833c9baa970e986, type: 3}
   OnAcceptEvents:
-  - {fileID: 11400000, guid: 47cb2dc4113df72468df8cbdad5fd706, type: 2}
-  - {fileID: 11400000, guid: 5eb7b2f3cad69a84d8ca354b1f1dc579, type: 2}
+  - {fileID: 11400000, guid: b084a22270031004681e4bcb89f88d83, type: 2}
+  - {fileID: 11400000, guid: d1fd91e2cd498f846bf6e2b34b75ead8, type: 2}
   OnRejectEvents:
-  - {fileID: 11400000, guid: 8644f73ab96718e408b61d79db37398a, type: 2}
+  - {fileID: 11400000, guid: 0c85cd42f5b57864fa6198069c0bcd1f, type: 2}
   oneTime: 0

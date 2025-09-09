@@ -30,7 +30,7 @@ public class DecreaseAllValues : CardEvent
     
     public override string GetEventInfo()
     {
-        return $"Decreases all values by {amount}";
+        return $"Decreases all values by {amount}" + "\n";
     }
 
     public override void OnEventActivate()
@@ -52,7 +52,7 @@ public class DisplayText : CardEvent
     
     public override string GetEventInfo()
     {
-        return description;
+        return description + "\n";
     }
 
     public override void OnEventActivate()
@@ -93,7 +93,7 @@ public class ChangeValue : CardEvent
                 break;
         }
         
-        return description;
+        return tempDescription + "\n";
     }
 
     public override void OnEventActivate()

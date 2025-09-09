@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9f43bf4272fb2b429bb2e0bd67210f8, type: 3}
+  m_Name: Lets Make The Millitary Use Water Guns
+  m_EditorClassIdentifier: 
+  cardTitle: 'The Military: Water Edition'
+  cardDescription: Those peace protesters are standing right outside demanding that
+    we force the military to only use water guns, what should we do?
+  cardImage: {fileID: -5444472221728357910, guid: d41cd2d407b9b5f48bcb806a81ff10a6, type: 3}
+  OnAcceptEvents:
+  - {fileID: 11400000, guid: b084a22270031004681e4bcb89f88d83, type: 2}
+  - {fileID: 11400000, guid: d1fd91e2cd498f846bf6e2b34b75ead8, type: 2}
+  OnRejectEvents:
+  - {fileID: 11400000, guid: 5b4abef8d8631954d8a500e33b1a1d3e, type: 2}
+  oneTime: 0

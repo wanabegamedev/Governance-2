@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardTitle: Well done!
   cardDescription: Thats it! Now go and change the course of our nation, and deal
-    with the consequences of your actions!
+    with the consequences of your actions! Just don't reject too many bills, or else
+    you will run out of political power!
   cardImage: {fileID: 2369375294726410803, guid: 514cfb18e35259143a68a85d393fe678, type: 3}
   OnAcceptEvents:
-  - {fileID: 11400000, guid: 0b882b25a379ceb45ac15dac19d09a2b, type: 2}
+  - {fileID: 11400000, guid: f4c2479b37393f0499f7752b6542c4fb, type: 2}
   OnRejectEvents:
-  - {fileID: 11400000, guid: 0b882b25a379ceb45ac15dac19d09a2b, type: 2}
+  - {fileID: 11400000, guid: f4c2479b37393f0499f7752b6542c4fb, type: 2}
   oneTime: 1
