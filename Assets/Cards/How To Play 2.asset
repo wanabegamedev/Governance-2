@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9f43bf4272fb2b429bb2e0bd67210f8, type: 3}
+  m_Name: How To Play 2
+  m_EditorClassIdentifier: 
+  cardTitle: Well done!
+  cardDescription: Thats it! Now go and change the course of our nation, and deal
+    with the consequences of your actions!
+  cardImage: {fileID: 2369375294726410803, guid: 514cfb18e35259143a68a85d393fe678, type: 3}
+  OnAcceptEvents:
+  - {fileID: 11400000, guid: 0b882b25a379ceb45ac15dac19d09a2b, type: 2}
+  OnRejectEvents:
+  - {fileID: 11400000, guid: 0b882b25a379ceb45ac15dac19d09a2b, type: 2}
+  oneTime: 1

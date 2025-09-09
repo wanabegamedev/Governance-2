@@ -12,14 +12,14 @@ public class Card : MonoBehaviour
 
 
     [Header("UI Elements")] 
-   [SerializeField] private TextMeshPro titleText;
+   public TextMeshPro titleText;
 
-    [SerializeField] private SpriteRenderer imageHolder;
+    public SpriteRenderer imageHolder;
 
-    [SerializeField] private TextMeshPro descriptionText;
+    public TextMeshPro descriptionText;
 
 
-    private void Awake()
+    private void Start()
     {
         titleText.text = cardData.cardTitle;
         imageHolder.sprite = cardData.cardImage;

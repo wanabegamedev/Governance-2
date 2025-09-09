@@ -5,4 +5,9 @@ using UnityEngine;
 public class Deck : ScriptableObject
 {
     public List<Card> cardsInDeck;
+    
+    [Header("Immediately added cards")]
+    public List<Card> cardsInDeckImmediate;
+    
+    
 }

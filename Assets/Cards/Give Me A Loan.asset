@@ -15,6 +15,8 @@ MonoBehaviour:
   cardTitle: Give A friend A Loan!
   cardDescription: Hey! Its cool to see your in power now, I really need some money
     and remember I voted for you! Would you mind giving me some???? Please!!!
-  cardImage: {fileID: 0}
-  OnAcceptEvents: []
-  OnRejectEvents: []
+  cardImage: {fileID: 3523829109956258542, guid: 3bfc3251f04bd6a45898d81183da86f3, type: 3}
+  OnAcceptEvents:
+  - {fileID: 11400000, guid: 97efdf77d72d97a44b6c160e725420e8, type: 2}
+  OnRejectEvents:
+  - {fileID: 11400000, guid: 97efdf77d72d97a44b6c160e725420e8, type: 2}

@@ -14,7 +14,9 @@ public class CardData : ScriptableObject
     public List<CardEvent> OnAcceptEvents;
     
     public List<CardEvent> OnRejectEvents;
-    
+
+    public bool oneTime;
+
 
 }
     
