@@ -18,7 +18,7 @@ MonoBehaviour:
     right)
   cardImage: {fileID: 2369375294726410803, guid: 514cfb18e35259143a68a85d393fe678, type: 3}
   OnAcceptEvents:
-  - {fileID: 11400000, guid: f4c2479b37393f0499f7752b6542c4fb, type: 2}
+  - {fileID: 11400000, guid: 47460c94f3f7a3446997a212d1dbf243, type: 2}
   OnRejectEvents:
-  - {fileID: 11400000, guid: f4c2479b37393f0499f7752b6542c4fb, type: 2}
+  - {fileID: 11400000, guid: 47460c94f3f7a3446997a212d1dbf243, type: 2}
   oneTime: 1

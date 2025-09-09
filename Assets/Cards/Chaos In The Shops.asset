@@ -18,9 +18,9 @@ MonoBehaviour:
     giving them away for free?
   cardImage: {fileID: 6292233934399876498, guid: a3f4691de748e974c8c0086dcecd263d, type: 3}
   OnAcceptEvents:
-  - {fileID: 11400000, guid: 04db6a72c499b054aba2000f652c0860, type: 2}
-  - {fileID: 11400000, guid: d1fd91e2cd498f846bf6e2b34b75ead8, type: 2}
+  - {fileID: 11400000, guid: 54850d4e93910244988133ab5f9cd5bf, type: 2}
+  - {fileID: 11400000, guid: 08b06f597e665c941be2c2ef400e3cd2, type: 2}
   OnRejectEvents:
-  - {fileID: 11400000, guid: b3d8560486acd654b83d8fdc96e73353, type: 2}
-  - {fileID: 11400000, guid: ea857602f73c9e84086418cab6f4b181, type: 2}
+  - {fileID: 11400000, guid: 00dcf68016a445b4eb6907e7ce574dd4, type: 2}
+  - {fileID: 11400000, guid: 04db6a72c499b054aba2000f652c0860, type: 2}
   oneTime: 0

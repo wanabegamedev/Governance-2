@@ -19,6 +19,7 @@ MonoBehaviour:
   OnAcceptEvents:
   - {fileID: 11400000, guid: b084a22270031004681e4bcb89f88d83, type: 2}
   - {fileID: 11400000, guid: d1fd91e2cd498f846bf6e2b34b75ead8, type: 2}
+  - {fileID: 11400000, guid: 08b06f597e665c941be2c2ef400e3cd2, type: 2}
   OnRejectEvents:
   - {fileID: 11400000, guid: 5b4abef8d8631954d8a500e33b1a1d3e, type: 2}
   oneTime: 0
